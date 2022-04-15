@@ -91,7 +91,7 @@ DA.print_pipeline_config()
 # MAGIC 1. Click the **Jobs** button on the sidebar, then select the **Delta Live Tables** tab.
 # MAGIC 1. Click **Create Pipeline**.
 # MAGIC 1. Leave **Product Edition** as **Advanced**.
-# MAGIC 1. Fill in a **Pipeline Name** - because these names must be unique, we suggest using the **Pipline Name** provided in the cell above.
+# MAGIC 1. Fill in a **Pipeline Name** - because these names must be unique, we suggest using the **Pipeline Name** provided in the cell above.
 # MAGIC 1. For **Notebook Libraries**, use the navigator to locate and select the notebook **`DE 8.2.2L - Migrating a SQL Pipeline to DLT Lab`**.
 # MAGIC 1. Configure the Source
 # MAGIC     * Click **`Add configuration`**
