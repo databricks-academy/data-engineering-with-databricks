@@ -163,6 +163,13 @@ display(example_df)
 # COMMAND ----------
 
 # MAGIC %md
+# MAGIC #### Create a markdown cell
+# MAGIC * Add one link
+# MAGIC * <a href="https://docs.databricks.com/clusters/clusters-manage.html#start-a-cluster" target="_blank">how to start a cluster</a>.
+
+# COMMAND ----------
+
+# MAGIC %md
 # MAGIC 
 # MAGIC 
 # MAGIC 
