@@ -1,6 +1,6 @@
 # Databricks notebook source
 # TODO
-my_name = None
+my_name = 'DataBrick'
 
 # COMMAND ----------
 
