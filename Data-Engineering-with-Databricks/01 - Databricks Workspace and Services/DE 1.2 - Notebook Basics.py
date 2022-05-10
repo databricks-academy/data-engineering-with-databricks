@@ -60,7 +60,7 @@
 
 # COMMAND ----------
 
-print("I'm running Python!")
+print("I'm running Python! :)")
 
 # COMMAND ----------
 
