@@ -9,3 +9,7 @@ install_eltwss_datasets(reinstall=False)
 load_eltwss_external_tables()
 DA.conclude_setup()
 
+
+# COMMAND ----------
+
+
