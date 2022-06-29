@@ -167,9 +167,9 @@ print("Hello Python!")
 # MAGIC This is text with an *italicized* word in it.
 # MAGIC 
 # MAGIC This is an ordered list
-# MAGIC 0. once
-# MAGIC 0. two
-# MAGIC 0. three
+# MAGIC 1. one
+# MAGIC 2. two
+# MAGIC 3. three
 # MAGIC 
 # MAGIC This is an unordered list
 # MAGIC * apples
