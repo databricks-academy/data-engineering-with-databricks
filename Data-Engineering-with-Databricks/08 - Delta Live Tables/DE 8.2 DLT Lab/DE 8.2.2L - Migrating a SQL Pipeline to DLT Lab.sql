@@ -70,7 +70,7 @@ AS SELECT *
 -- MAGIC 
 -- MAGIC ## Declare Silver Tables
 -- MAGIC 
--- MAGIC Our silver table, **`recordings_parsed`**, will consist of the following fields:
+-- MAGIC Our silver table, **`recordings_enriched`**, will consist of the following fields:
 -- MAGIC 
 -- MAGIC | Field | Type |
 -- MAGIC | --- | --- |
