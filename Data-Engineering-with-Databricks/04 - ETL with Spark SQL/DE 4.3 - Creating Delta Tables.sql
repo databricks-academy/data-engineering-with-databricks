@@ -265,7 +265,7 @@ DESCRIBE EXTENDED purchase_dates
 -- MAGIC The **`CREATE TABLE`** clause contains several options:
 -- MAGIC * A **`COMMENT`** is added to allow for easier discovery of table contents
 -- MAGIC * A **`LOCATION`** is specified, which will result in an external (rather than managed) table
--- MAGIC * The table is **`PARTITIONED BY`** a date column; this means that the data from each data will exist within its own directory in the target storage location
+-- MAGIC * The table is **`PARTITIONED BY`** a date column; this means that the data from each date will exist within its own directory in the target storage location
 -- MAGIC 
 -- MAGIC **NOTE**: Partitioning is shown here primarily to demonstrate syntax and impact. Most Delta Lake tables (especially small-to-medium sized data) will not benefit from partitioning. Because partitioning physically separates data files, this approach can result in a small files problem and prevent file compaction and efficient data skipping. The benefits observed in Hive or HDFS do not translate to Delta Lake, and you should consult with an experienced Delta Lake architect before partitioning tables.
 -- MAGIC 
