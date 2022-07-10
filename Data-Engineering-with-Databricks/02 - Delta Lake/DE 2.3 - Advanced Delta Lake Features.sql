@@ -186,7 +186,7 @@ DESCRIBE DETAIL students
 -- MAGIC %md
 -- MAGIC 
 -- MAGIC 
--- MAGIC Here we see that our table currently contains 4 data files in its present version. So what are all those other Parquet files doing in our table directory? 
+-- MAGIC Here we see that our table currently contains 3 data files in its present version. So what are all those other Parquet files doing in our table directory? 
 -- MAGIC 
 -- MAGIC Rather than overwriting or immediately deleting files containing changed data, Delta Lake uses the transaction log to indicate whether or not files are valid in a current version of the table.
 -- MAGIC 
