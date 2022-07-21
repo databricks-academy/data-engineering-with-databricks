@@ -117,8 +117,8 @@ SELECT * FROM sales_delta
 -- COMMAND ----------
 
 CREATE OR REPLACE TABLE purchases AS
-SELECT order_id AS id, transactions_timestamp, purchase_revenue_in_usd AS price
-FROM sales_delta;
+SELECT order_id AS id, transaction_timestamp, purchase_revenue_in_usd AS price
+FROM sales;
 
 SELECT * FROM purchases
 
@@ -132,8 +132,8 @@ SELECT * FROM purchases
 -- COMMAND ----------
 
 CREATE OR REPLACE VIEW purchases_vw AS
-SELECT order_id AS id, transactions_timestamp, purchase_revenue_in_usd AS price
-FROM sales_delta;
+SELECT order_id AS id, transaction_timestamp, purchase_revenue_in_usd AS price
+FROM sales;
 
 SELECT * FROM purchases_vw
 
